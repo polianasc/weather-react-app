@@ -4,18 +4,21 @@ import Weather from "./Weather.js";
 function App() {
   return (
     <div className="App">
-      <h1>WEATHER APP</h1>
-      <Weather />
-      <footer>
-        🧘‍♀️{" "}
-        <a
-          href="https://github.com/polianasc/weather-react-app"
-          target="_blank"
-        >
-          Open-source
-        </a>{" "}
-        coded by Poli Schuelter 👩‍💻
-      </footer>
+      <div className="container">
+        <h1> Weather APP</h1>
+        <Weather />
+        <footer>
+          🧘‍♀️{" "}
+          <a
+            href="https://github.com/polianasc/weather-react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source
+          </a>{" "}
+          coded by Poli Schuelter 👩‍💻
+        </footer>
+      </div>
     </div>
   );
 }
