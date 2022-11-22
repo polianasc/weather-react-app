@@ -1,5 +1,6 @@
 import "./App.css";
 import Weather from "./Weather.js";
+import Body from "./Body.js";
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <div className="container">
         <h1> Weather APP</h1>
         <Weather />
+        <br />
+
+        <Body />
         <footer>
           🧘‍♀️{" "}
           <a
