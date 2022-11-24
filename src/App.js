@@ -9,7 +9,7 @@ function App() {
         <br />
         <br />
 
-        <Body />
+        <Body defaultCity="Berlin" />
         <footer>
           🧘‍♀️{" "}
           <a
