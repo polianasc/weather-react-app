@@ -12,10 +12,15 @@ export default function Body() {
               type="search"
               placeholder="type a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
@@ -35,7 +40,11 @@ export default function Body() {
         </div>
         <div className="col-4">
           <div>
-            <h1> 19 °C</h1>
+            <h1>
+              {" "}
+              19
+              <span className="unit">°C</span>
+            </h1>
           </div>
           <div>Clouds</div>
         </div>
@@ -45,7 +54,7 @@ export default function Body() {
         <div className="row">
           <div className="col-6">
             <div>Fells like: 19°</div>
-            <div>Min/Max: 18°/20°</div>
+            <div>Min/Max: 18°|20°</div>
           </div>
           <div className="col-6">
             <div>Humidity: 81%</div>
@@ -59,36 +68,35 @@ export default function Body() {
           <div className="col-2">
             <div>Tue</div>
             <div>image</div>
-            <div>19°/14°</div>
+            <div>19°|14°</div>
           </div>
           <div className="col-2">
             <div>Wed</div>
             <div>image</div>
-            <div>20°/17°</div>
+            <div>20°|17°</div>
           </div>
           <div className="col-2">
             <div>Thu</div>
             <div>image</div>
-            <div>19°/14°</div>
+            <div>19°|14°</div>
           </div>
           <div className="col-2">
             <div>Fri</div>
             <div>image</div>
-            <div>17°/13°</div>
+            <div>17°|13°</div>
           </div>
           <div className="col-2">
             <div>Sat</div>
             <div>image</div>
-            <div>17°/10°</div>
+            <div>17°|10°</div>
           </div>
           <div className="col-2">
             <div>Sun</div>
             <div>image</div>
-            <div>17°/11°</div>
+            <div>17°|11°</div>
           </div>
         </div>
       </div>
-      <br />
     </div>
   );
 }

@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1> Weather APP</h1>
-        <Weather />
+        <br />
         <br />
 
         <Body />
@@ -22,6 +21,16 @@ function App() {
           </a>{" "}
           coded by Poli Schuelter 👩‍💻
         </footer>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Weather />
       </div>
     </div>
   );

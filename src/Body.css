@@ -1,5 +1,43 @@
 .Body {
-  border: 1px solid #885df1;
-  border-radius: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
   text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(39, 33, 66);
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.Body .btn {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #885df1;
+  --bs-btn-border-color: #885df1;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #875df12c;
+  --bs-btn-hover-border-color: #875df12c;
+  --bs-btn-font-size: 15px;
+  --bs-btn-padding-x: 10px;
+  --bs-btn-padding-y: 6px;
+}
+
+.Body .unit {
+  font-size: 15px;
+  position: relative;
+  top: -10px;
+}
+
+.Body .result {
+  background: #875df12c;
+  padding: 13px 10px;
+  border-radius: 11px;
+  margin-top: 13px;
+}
+
+.Body .weekResult {
+  background: #875df12c;
+  padding: 13px 10px;
+  border-radius: 11px;
+  margin-top: 13px;
 }
