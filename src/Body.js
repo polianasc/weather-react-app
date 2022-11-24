@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormatDate from "./FormatDate";
 import { RotatingLines } from "react-loader-spinner";
 import "./Body.css";
 
@@ -18,7 +19,7 @@ export default function Body(props) {
       maxTemp: 12,
       humidity: response.data.temperature.humidity,
       windSpeed: response.data.wind.speed,
-      date: "Tuesday 00:00",
+      date: new Date(response.data.time * 1000),
     });
   }
 
@@ -51,7 +52,9 @@ export default function Body(props) {
             <div>
               <h1>{props.defaultCity}</h1>
             </div>
-            <div>{weatherData.date}</div>
+            <div>
+              <FormatDate date={weatherData.date} />
+            </div>
           </div>
           <div className="col-4">
             <img src={weatherData.icon} alt={weatherData.iconDescriprion} />
@@ -66,7 +69,6 @@ export default function Body(props) {
             <div className="text-capitalize">{weatherData.description}</div>
           </div>
         </div>
-        <br />
         <div className="result">
           <div className="row">
             <div className="col-6">
