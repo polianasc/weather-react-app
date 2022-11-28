@@ -38,6 +38,10 @@
   top: -10px;
 }
 
+.Body a {
+  text-decoration: none;
+}
+
 .Body .result {
   background: #875df12c;
   padding: 13px 10px;
