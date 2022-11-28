@@ -22,6 +22,11 @@
   --bs-btn-padding-y: 6px;
 }
 
+.Body h1 {
+  font-size: 23px;
+  font-style: bold;
+}
+
 .Body img {
   position: relative;
   top: -10px;
