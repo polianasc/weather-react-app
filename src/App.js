@@ -1,5 +1,4 @@
 import "./App.css";
-import Weather from "./Weather.js";
 import Body from "./Body.js";
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
         <br />
         <br />
         <br />
-        <Weather />
       </div>
     </div>
   );
