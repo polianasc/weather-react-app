@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfoResult from "./WeatherInfoResult";
 import { RotatingLines } from "react-loader-spinner";
-import Forecast from "./Forecast";
+import WeatherForecast from "./WeatherForecast";
 import "./Body.css";
 
 export default function Body(props) {
@@ -67,7 +67,7 @@ export default function Body(props) {
         <br />
         <WeatherInfoResult data={weatherData} />
 
-        <Forecast city={weatherData.city} />
+        <WeatherForecast city={weatherData.city} />
       </div>
     );
   } else {

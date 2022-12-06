@@ -1,4 +1,4 @@
-.Forecast {
+.WeatherForecast {
   text-align: center;
   background: #875df12c;
   padding: 13px 10px;
@@ -6,6 +6,6 @@
   margin-top: 13px;
 }
 
-.ForecastMin {
+.WeatherForecastMin {
   opacity: 0.8;
 }
