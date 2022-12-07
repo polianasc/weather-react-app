@@ -27,14 +27,14 @@ export default function WeatherInfoResult(props) {
       <div className="result">
         <div className="row">
           <div className="col-6">
-            <div>fells like: {Math.round(props.data.fellsLike)}°</div>
+            <div>Fells Like: {Math.round(props.data.fellsLike)}°</div>
             <div>
-              min/max: {props.data.minTemp}°|{props.data.maxTemp}°
+              Min/Max: {props.data.minTemp}°|{props.data.maxTemp}°
             </div>
           </div>
           <div className="col-6">
-            <div>humidity: {props.data.humidity}%</div>
-            <div>wind speed: {Math.round(props.data.windSpeed)} km/h</div>
+            <div>Humidity: {props.data.humidity}%</div>
+            <div>Wind Speed: {Math.round(props.data.windSpeed)} km/h</div>
           </div>
         </div>
       </div>

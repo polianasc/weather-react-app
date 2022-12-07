@@ -33,13 +33,9 @@
 }
 
 .Body .unit {
-  font-size: 15px;
+  font-size: 13px;
   position: relative;
-  top: -10px;
-}
-
-.Body a {
-  text-decoration: none;
+  top: -8px;
 }
 
 .Body .result {
@@ -47,11 +43,14 @@
   padding: 13px 10px;
   border-radius: 11px;
   margin-top: -10px;
+  text-align: center;
 }
 
-.Body .forecast {
-  background: #875df12c;
-  padding: 13px 10px;
-  border-radius: 11px;
-  margin-top: -10px;
+.Body .ForecastMin {
+  opacity: 80%;
+}
+
+.Body .ForecastIcon img {
+  position: static;
+  margin: 0 auto;
 }
